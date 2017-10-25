@@ -1,0 +1,32 @@
+<h1 align ='center' >CMBNY 19 WEREWOLF
+<%= image_tag("Werewolf.jpg", size: "200") %> 
+</h1>
+<div>
+    <%= form_tag({:controller => "welcome", :action => "initial"}, :method => "post") do %>
+    <table class = "table table-bordered table-striped text-center">
+        <tr>
+            <th>Role</th>
+        </tr>
+        <tr>
+			<td>狼人 X <%= text_field_tag 'wolf' %> </td>
+        </tr>
+        <tr>
+			<td>贫民 X <%= text_field_tag 'civil' %> </td>
+        </tr>
+        <tr>
+			<td>预言家 X <%= text_field_tag 'seer' %> </td>
+        </tr>
+        <tr>
+			<td>盗贼 X <%= text_field_tag 'robber' %> </td>
+        </tr>
+        <tr>
+			<td>捣蛋鬼 X <%= text_field_tag 'trouble' %> </td>
+        </tr>
+        <tr>
+			<td>空置 X <%= text_field_tag 'extra' %> </td>
+        </tr>
+    </table>
+    <%= submit_tag("初始")%>
+    <% end %>
+    <%= button_to "加入", controller: "welcome", action: "enter"%>
+</div>

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "united-bongo-174315",
+  "private_key_id": "d70c392ef75592cf9f818ba37aad1a22b5e6f209",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6xvokkj/MgEu9\nmqguXPq/Dagibk3Ae3kneBZG7shO5FpyuFjQQbjNgGoSnSlpfPyy5b9bTVK5XPoD\nUkW6uqnRoEwp1QiByQFrexa5QMNXsTaC6WsQO2YlmmuZD6NWeIb0XcOctZfAYgL6\nZcHFSZG9SiyCF6hKDWr/sCTQq1YYv4UIhn7e89B6LdtxxFVFFr/IxHifNLjipg3G\nw+I/UaE7mNkhsuuP0XZclhLGcVaFCmljTR/xANsvIbMxgzA0ZhAo/Ih+ng19+DYg\nxU+CF4tMTP9KrQ2RZbAKPxcYw3OdR08J2YLcncDsXBHlDdy6LV3nKl517M/Lv5Vn\nYT06WBapAgMBAAECggEAAsm08r67cHUa/WIYwykzqvS5ITCSX0TYjM+0GfSdfFct\npgtSli/gJqnqq2kxEp6nngfbSTF/6LUjehVqMpH4PuEmSVrDdbXPz3J275nS6Bcm\n2LcQOmqhoIcyUCi79shcPsxEKZQGmFnGtQD8CDklqw5InMrENUVt72dOYaOoRm/v\nGZm/FGJGZ14xPsGV0jzd7e2YTsifkbK6j1s+CS1z5DdNR+VE894jJsemasxH0cGj\nRhqO2cxZhsiEb6uqwbXqCfwd+dKILuXVFxkxVJh1Jfjz6mUG2vTN2vqCp6GyxOR3\ntm5JJxg/Tf9L5JOz4Cvc1+PcXmNLD/FGDPdHDn81iQKBgQD0mClPkNuOH9WcIYgl\n9dU/OYP1HxhdumPY6v6JnMPRfw6NHyi35SeSuVZ7oALdhlnO0tDyiNE4pW4Q04nW\n/UXE/rrKec98SVKC8WQ2hxNrLQ4gEg6WcY+bKZXjIyenzlOSDoOFYGLG6pDLAMiv\nW+6mPELHPVP5ZuU9W4chuR7bxQKBgQDDfKAbDy1qjAQDOVZi8elzMmnKjnp96eNj\nLr7U/x5xEB54XAArrNsVRKvEiHsiWuNQBb4ps8x4wzYISs7rn2/qMHzp0P9qbFdD\nlL0cdJg3dR3XHRYQnRg+eXCAicacBDBfNSvTlYcWNMolPpdsXYCQq3Y8E7UzcZ1B\n0WPv3EtJlQKBgQC/Sq2sW5dKnR0bwaHQRmYjz2CjeVE+JILoaEjv6RnAo4UG26Kl\nx+NePfMkNm1nQSbFuVzPAi/XBJKDOF3qNSS2v53ossGR62pLnGyKtLN8M72DWXvt\nLx1n9WsTPDBMbfIwHYfA7TPzbAoXqiJJ+zU275QubIlbWZzZktapijVXHQKBgFRr\np4DIBybyHHF/+2xzaAuVg9YzvXZO4SHd+A9ntS/CdEYqBPDXjy0aIMuY3QQzF+Ng\n94Ru3yhvtQ/TrpRWoDAUjH01AnhlHTJUM27scyfP7fkN2I+IKAYiz5DS7vBFZtZW\n0fxnoJTYa0u2QhJMNs9DHKZJJIF42R6pXG0jR2gZAoGBALamUptkT87qxxeziSBO\naJOKkSkrCNX4QVWKWbLmPwV62T6akwqVqafdHhh1yPAEnZaQxFvFeUQGZcXvBdFr\nds5ZQlG+XPadDnMZE6/XIp5aLGPks1lR46KJZtoXLNpH5o+knaW0oQQ+UcCsa78w\nFahmhmrGSHS1eFqLn7kLs58u\n-----END PRIVATE KEY-----\n",
+  "client_email": "voicetotext@united-bongo-174315.iam.gserviceaccount.com",
+  "client_id": "109144943336851301160",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voicetotext%40united-bongo-174315.iam.gserviceaccount.com"
+}

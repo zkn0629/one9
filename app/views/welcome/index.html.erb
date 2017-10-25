@@ -1,0 +1,30 @@
+<h1 align = 'center' >CMBNY 19 WEREWOLF</h1>
+<div>
+    <table class = "table table-bordered table-striped text-center">
+        <tr>
+            <td>Role</td>
+        </tr>
+        <% i = 0%>
+        <% for player in @players do%>
+        <tr>
+            <td><%= submit_tag player[0], :type => "button", :onclick => "alert('Your role is #{player[1]}!')", 
+            		:class => "btn btn-large" %></td>
+            		<% i += 1 %>
+        </tr>
+        <% end %>
+    </table>
+    <%= form_tag({:controller => "welcome", :action => "steal"}, :method => "post") do %>
+      Enter player you want to steal : <%= text_field_tag 'he' %>
+      <%= hidden_field_tag :players, @players %>
+      <%= submit_tag("盗贼")%>
+  	<% end %>
+  	<br/>
+  	<%= form_tag({:controller => "welcome", :action => "swap"}, :method => "post") do %>
+      Swap role of player : <%= text_field_tag 'her' %> 
+      with player : <%= text_field_tag 'he' %>
+      <%= hidden_field_tag :players, @players %>
+      <%= submit_tag("捣乱鬼")%>
+  	<% end %>
+  	<br/>
+  	<%= button_to "Show", action: "show" %>
+</div>
